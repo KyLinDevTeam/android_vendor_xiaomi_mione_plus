@@ -50,18 +50,17 @@ PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/etc/firmware/dsps_fluid.b02:system/etc/firmware/dsps_fluid.b02 \
   vendor/xiaomi/mione_plus/proprietary/etc/firmware/dsps_fluid.b01:system/etc/firmware/dsps_fluid.b01 \
   vendor/xiaomi/mione_plus/proprietary/etc/firmware/dsps_fluid.b00:system/etc/firmware/dsps_fluid.b00 \
-  vendor/xiaomi/mione_plus/proprietary/vendor/firmware/fw_bcm4329.bin:system/vendor/firmware/fw_bcm4329.bin \
-  vendor/xiaomi/mione_plus/proprietary/vendor/firmware/fw_bcm4329_apsta.bin:system/vendor/firmware/fw_bcm4329_apsta.bin \
-  vendor/xiaomi/mione_plus/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
-  vendor/xiaomi/mione_plus/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
-  vendor/xiaomi/mione_plus/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
-  vendor/xiaomi/mione_plus/proprietary/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-  vendor/xiaomi/mione_plus/proprietary/etc/wifi/nvram.txt:system/etc/wifi/nvram.txt \
+  vendor/xiaomi/mione_plus/proprietary/etc/firmware/bcmdhd.cal:system/etc/firmware/bcmdhd.cal \
+  vendor/xiaomi/mione_plus/proprietary/etc/firmware/fw_bcm4329.bin:system/etc/firmware/fw_bcm4329.bin \
+  vendor/xiaomi/mione_plus/proprietary/etc/firmware/fw_bcm4329_apsta.bin:system/etc/firmware/fw_bcm4329_apsta.bin \
+  vendor/xiaomi/mione_plus/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+  vendor/xiaomi/mione_plus/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
+  vendor/xiaomi/mione_plus/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
+  vendor/xiaomi/mione_plus/proprietary/etc/firmware/nvram.txt:system/etc/firmware/nvram.txt \
   vendor/xiaomi/mione_plus/proprietary/lib/libnv.so:system/lib/libnv.so \
   vendor/xiaomi/mione_plus/proprietary/etc/firmware/bcm4329.hcd:system/etc/firmware/bcm4329.hcd \
   vendor/xiaomi/mione_plus/proprietary/etc/firmware/bcm4330.hcd:system/etc/firmware/bcm4330.hcd \
   vendor/xiaomi/mione_plus/proprietary/etc/init.qcom.modem_links.sh:system/etc/init.qcom.modem_links.sh \
-  vendor/xiaomi/mione_plus/proprietary/etc/init.qcom.post_fs.sh:system/etc/init.qcom.post_fs.sh \
   vendor/xiaomi/mione_plus/proprietary/lib/libdsm.so:system/lib/libdsm.so \
   vendor/xiaomi/mione_plus/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
   vendor/xiaomi/mione_plus/proprietary/lib/libqueue.so:system/lib/libqueue.so \
@@ -119,6 +118,7 @@ PRODUCT_COPY_FILES += \
   vendor/xiaomi/mione_plus/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
   vendor/xiaomi/mione_plus/proprietary/bin/port-bridge:system/bin/port-bridge \
   vendor/xiaomi/mione_plus/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
+  vendor/xiaomi/mione_plus/proprietary/bin/dun-server:system/bin/dun-server \
   vendor/xiaomi/mione_plus/proprietary/bin/qmuxd:system/bin/qmuxd \
   vendor/xiaomi/mione_plus/proprietary/bin/rmt_storage:system/bin/rmt_storage \
   vendor/xiaomi/mione_plus/proprietary/bin/usbhub:system/bin/usbhub \
